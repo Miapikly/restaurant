@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+.container h1,ul{
+ display:flex;
+ 
+ justify-content: flex-end;
+ list-style-type: none;
+ padding:20px;
+ gap :20px;
+ flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+ul li a{
+   
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container h1{
+    /* position:absolute; */
+    color:white;
+    padding:10px;
+    margin-top: 2.5px;
+    font-size: 2em;
+    justify-content: flex-start;
+    
+}
+
+.Hero{
+    
+    
+    background-image: url('../images/bg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hero-content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero h2{
+    font-size: 3em;
+}
+
+.btn{
+    padding: 20px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.menu-section h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu-grid{
+    display: flex;
+    margin-top: 30px;
+    gap: 5em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    padding-bottom: 5em;
+    max-width: 100%;
+    box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+}
+
+img{
+    width: 100%;
+}
+
+.about{
+    padding: 2em;
+    background-color: white;
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
+
+.about h4{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact h4{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 2em;
+    background-color: black;
+    color: #ccc;
+    text-align: center;
+    padding: 1em;
+}
